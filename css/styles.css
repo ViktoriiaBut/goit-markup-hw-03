@@ -4,10 +4,29 @@
 --secondary-color: #434455;
 }
 
+p, h1, h2, h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #FFFFFF;
     color: var(--secondary-color); 
+}
+.container { 
+    width: 100%;
+    max-width: 1188;
+    padding-left: 15;
+    padding-right: 15;
+    margin: 0 auto;
+
 }
 
 .link {
@@ -36,6 +55,10 @@ body {
  }   
 /*------------HEADER-----------*/
 
+header {
+    padding-top: 25.5;
+    padding-bottom: 25.5;
+}
 .header-logo {
     color: var(--accent-color);
         font-size: 18px;
@@ -95,6 +118,7 @@ body {
         font-weight: 700;
         line-height: 1.07;
         letter-spacing: 0.02em;
+        font-style: normal;
 }
 
 .hero-btn {
@@ -201,7 +225,7 @@ background-color: #404BBF;
     text-decoration: none;
 }
         
-        .service-item {background: #F4F4FD}
+        .service-item {background: #FFF;}
                  
         .service-title {
                 }
