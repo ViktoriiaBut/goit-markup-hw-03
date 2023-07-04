@@ -22,11 +22,11 @@ body {
 }
 .container { 
     width: 100%;
-    max-width: 1188;
-    padding-left: 15;
-    padding-right: 15;
-    margin: 0 auto;
-
+    max-width: 1158;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .link {
@@ -56,8 +56,8 @@ body {
 /*------------HEADER-----------*/
 
 header {
-    padding-top: 25.5;
-    padding-bottom: 25.5;
+    padding-top: 25.5px;
+    padding-bottom: 25.5px;
 }
 .header-logo {
     color: var(--accent-color);
@@ -68,9 +68,28 @@ header {
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        
 }
 .header-logo-accent {
     color: var(--main-color);
+}
+.header-container {
+    display: flex;
+    align-items: center;  
+    
+    }
+.header-menu {
+   display: flex;
+   gap: 40px;
+ }
+.header-navigation {
+    display: flex;
+    justify-content: space-between;
+    gap: 76px;
+ }
+.header-address {
+    display: flex;
+    gap: 40px;
 }
 
 .header-menu-link:hover,
@@ -93,6 +112,7 @@ header {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        margin-left: auto;
 }
 
 .header-adress-link {
@@ -110,7 +130,9 @@ header {
 .hero {
     background: #2E2F42;
 }
-
+.hero-container {
+    padding: 173px 383px ;
+}
 .hero-title {
     color: #FFF;
         text-align: center;
@@ -119,6 +141,9 @@ header {
         line-height: 1.07;
         letter-spacing: 0.02em;
         font-style: normal;
+        display: block;
+            margin: 0 auto;
+            
 }
 
 .hero-btn {
@@ -130,12 +155,30 @@ header {
         letter-spacing: 0.04em;
         background: #4D5AE5;
         cursor: pointer;
+        padding: 16px 32px;
+        border: none;
+        display: block;
+        margin: 0 auto;
+        margin-top: 48px;
 }
 
 .hero-btn:hover,
 .hero-btn:focus { 
 background-color: #404BBF;
 }
+
+/*-----------FEATURES----------*/
+
+.featurs { 
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.featurs-list {
+    padding-left: 156px;
+    padding-right: 156px;
+    display: flex;
+    gap: 24px;
+    }
 
 
 /*------------DOING-----------*/
