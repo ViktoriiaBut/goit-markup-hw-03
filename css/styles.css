@@ -67,7 +67,7 @@ body {
      overflow: hidden;
  }
 
- .img {
+ img {
     display: block;
     max-width: 100%;
     height: auto;
@@ -76,10 +76,9 @@ body {
 /*------------HEADER-----------*/
 
 header {
-    padding-top: 24px;
-    padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
     width: 1158px;
+    padding: 24px 0;
 }
 .header-logo {
     color: var(--accent-color);
@@ -91,6 +90,8 @@ header {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         margin-right: 76px;
+        padding: 24px 0;
+
         
 }
 .header-logo-accent {
@@ -128,6 +129,7 @@ header {
         line-height: 1.5;
         letter-spacing: 0.02em;
         font-style: normal;
+        padding: 24px 0;
 }
 
 .header-address {
@@ -330,10 +332,10 @@ padding: 32px 16px;
 /*------------PORTFOLIO-----------*/
 
 /*------------HEADER-----------*/
-.section {
+section {
     padding-top: 96px;
-        padding-bottom: 120px;
-        margin-bottom: 72px;
+    padding-bottom: 120px;
+    margin-bottom: 72px;
 }
 
  .list {
@@ -373,7 +375,7 @@ border-radius: 4px;
     background-color: #404BBF;
     border: 1px solid transparent;
 }
-.img {
+img {
     display: block;
 }
 
