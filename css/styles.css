@@ -382,7 +382,7 @@ img {
 .service-list {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 72px;
+    margin-bottom: 72px;
     gap: 24px;
     row-gap: 48px;
     
@@ -397,7 +397,7 @@ img {
         
         .service-item {background: #FFF;
         display: flex;
-        
+        width: calc((100% - 48px) / 3);
             width: 360px;
             height: 420px;
             padding-bottom: 0px;
