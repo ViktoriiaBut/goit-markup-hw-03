@@ -50,11 +50,11 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }    
- .section-title span {
+.section-title span {
     color: var(--accent-color);
  }   
 
- .visually-hidden {
+.visually-hidden {
      position: absolute;
      width: 1px;
      height: 1px;
@@ -338,7 +338,7 @@ section {
     margin-bottom: 72px;
 }
 
- .list {
+.list {
      button-list: none,
      service-list: none;
     service-text: none;
@@ -347,7 +347,7 @@ section {
 .button {
 border: none;
 }
-  .button-btn {
+.button-btn {
     color:var(--accent-color);
     text-align: center;
     font-size: 16px;
@@ -395,7 +395,8 @@ img {
     text-decoration: none;
 }
         
-        .service-item {background: #FFF;
+.service-item {
+        background: #FFF;
         display: flex;
         width: calc((100% - 48px) / 3);
             width: 360px;
@@ -407,18 +408,18 @@ img {
             flex-shrink: 0;
             border: 1px solid  #E7E9FC;
     }
-     .name-container {
+.name-container {
         padding: 32px 16px;
         border: 1px solid #e7e9fc;
         border-top: none;
-        margin-bottom: 8px
+        margin-bottom: 8px;
      }
-        .service-title {
+.service-title {
             padding-top: 32px; 
             padding-left: 16px;
                             }
 
-        .service-text {
+.service-text {
            font-style: normal;
            list-style: none;
            padding-bottom: 32px;
@@ -426,7 +427,7 @@ img {
         }
         
 
-         .footer {
+.footer {
             font-family: 'Raleway', sans-serif;
             font-weight: 800;
             font-size: 18px;
