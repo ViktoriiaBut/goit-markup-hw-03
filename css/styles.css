@@ -217,7 +217,7 @@ background-color: #404BBF;
 
 
 .featurs-item {
-    margin-bottom: 15px ;
+    margin-bottom: 8px ;
 }
 /*------------DOING-----------*/
 
@@ -346,6 +346,7 @@ section {
      }
 .button {
 border: none;
+
 }
 .button-btn {
     color:var(--accent-color);
@@ -361,6 +362,7 @@ border: none;
     padding: 12px 24px;
     border: 1px solid #e7e9fc;
 border-radius: 4px;
+margin-bottom: 72px;
 }
 
 .button-list {
@@ -382,7 +384,7 @@ img {
 .service-list {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 72px;
+    
     gap: 24px;
     row-gap: 48px;
     
@@ -417,6 +419,7 @@ img {
 .service-title {
             padding-top: 32px; 
             padding-left: 16px;
+            margin-bottom: 8px;
                             }
 
 .service-text {
