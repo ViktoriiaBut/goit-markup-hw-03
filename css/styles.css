@@ -22,7 +22,7 @@ body {
 }
 .container { 
     width: 100%;
-    max-width: 1158;
+    max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -77,9 +77,8 @@ body {
 
 header {
     border-bottom: 1px solid #e7e9fc;
-    width: 1158px;
-    padding: 24px 0;
 }
+
 .header-logo {
     color: var(--accent-color);
         font-size: 18px;
@@ -109,7 +108,6 @@ header {
 .header-navigation {
     display: flex;
     align-items: center;
-    gap: 76px;
     
  }
 .header-address {
@@ -158,9 +156,7 @@ header {
     padding-top: 188px;
     padding-bottom: 188px;
 }
-.hero-container {
-    padding: 173px 383px ;
-}
+
 .hero-title {
     color: #FFF;
         text-align: center;
@@ -205,8 +201,6 @@ background-color: #404BBF;
   padding-bottom: 120px;
 }
 .featurs-list {
-    padding-left: 156px;
-    padding-right: 156px;
     display: flex;
     gap: 24px;
     }
@@ -222,7 +216,7 @@ background-color: #404BBF;
 /*------------DOING-----------*/
 
 .doing {
-    padding-top: 120px;
+    padding-top: 0;
     padding-bottom: 120px;
     
 }
@@ -231,8 +225,6 @@ background-color: #404BBF;
     gap: 24px;
 }
 .doing-item{
-    
-    margin-bottom: 120px;
     width: calc((100% - 48px) / 3)
 }
 .doing-title {
@@ -265,28 +257,23 @@ padding: 120px 0;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-        padding-top: 120px;
-                margin-bottom: 72px;
+        margin-bottom: 72px;
 }
 
 .team-item { background: #FFF;
         width: calc((100% - 24px*3) / 4);
-    padding-bottom: 32px;
-    border-radius: 0px 0px 4px 4px;
-    margin-bottom: 120px;
-}
+        border-radius: 0px 0px 4px 4px;
+   }
 
 
 .team-member {
        text-align: center;
-    padding-top: 32px;
-    margin-bottom: 8px;
+     margin-bottom: 8px;
 }
 
 .team-profetional {
         text-align: center;
-                     padding-bottom: 32px;
-    }
+            }
 
 .team-container {
 padding: 32px 16px;
@@ -296,7 +283,6 @@ padding: 32px 16px;
 
 .footer {
     background-color: #2E2F42;
-    padding-top: 101.5px;
     padding: 100px 0;
     }
 
@@ -333,17 +319,11 @@ padding: 32px 16px;
 
 /*------------HEADER-----------*/
 section {
-    padding-top: 96px;
-    padding-bottom: 120px;
-    margin-bottom: 72px;
+
 }
 
 .list {
-     button-list: none,
-     service-list: none;
-    service-text: none;
-    
-     }
+       }
 .button {
 border: none;
 
@@ -431,13 +411,6 @@ img {
         
 
 .footer {
-            font-family: 'Raleway', sans-serif;
-            font-weight: 800;
-            font-size: 18px;
-            line-height: 1.17;
-            letter-spacing: 0.03em;
-            text-transform: uppercase;
             color: var(--secondary-color);
-            margin-top: 120px;
-         }
+                     }
           
