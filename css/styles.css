@@ -318,16 +318,15 @@ padding: 32px 16px;
 /*------------PORTFOLIO-----------*/
 
 /*------------HEADER-----------*/
+
 section {
-
+    padding-top: 96px; 
+    padding-bottom: 120px;
 }
-
-.list {
-       }
 .button {
 border: none;
-
 }
+
 .button-btn {
     color:var(--accent-color);
     text-align: center;
@@ -349,6 +348,7 @@ margin-bottom: 72px;
     display: flex;
     justify-content: center;
     gap: 24px;
+    margin-bottom: 72px;
 }
 
 .button-btn:hover,
@@ -364,7 +364,6 @@ img {
 .service-list {
     display: flex;
     flex-wrap: wrap;
-    
     gap: 24px;
     row-gap: 48px;
     
